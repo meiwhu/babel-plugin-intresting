@@ -12,5 +12,5 @@ const out = `function test() {
 
 it('works', () => {
   const { code } = babel.transformSync(input, { plugins: [plugin] })
-  assert(code == out, 'Fail')
+  assert(code === out, 'Fail')
 })
