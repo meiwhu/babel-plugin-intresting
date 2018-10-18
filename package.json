@@ -6,7 +6,6 @@
   "scripts": {
     "build": "babel src -d lib",
     "test": "npm run build && mocha",
-    "prepublish": "npm test",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
