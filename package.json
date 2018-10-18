@@ -1,16 +1,18 @@
 {
   "name": "babel-plugin-intresting",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Intresting😄",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
     "test": "npm run build && mocha",
-    "prepublish": "npm test"
+    "prepublish": "npm test",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meiwhu/babel-plugin-intresting.git"
+    "url": "https://github.com/meiwhu/babel-plugin-intresting.git"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +25,9 @@
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "semantic-release": "^15.10.3",
+    "travis-deploy-once": "^5.0.9"
   },
   "files": [
     "lib"
