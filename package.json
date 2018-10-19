@@ -5,8 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
-    "test": "nyc --reporter=lcov mocha",
-    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "test": "nyc mocha",
+    "report-coverage": "nyc report --reporter=text-lcov | codecov",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
