@@ -1,4 +1,5 @@
 [![Build Status][travis-icon]][travis-link]
+![Codecov](https://img.shields.io/codecov/c/github/meiwhu/babel-plugin-intresting.svg)
 
 # babel-plugin-intresting
 Intresting😄
