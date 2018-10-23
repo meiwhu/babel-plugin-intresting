@@ -1,5 +1,5 @@
 [![Build Status][travis-icon]][travis-link]
-![Codecov](https://img.shields.io/codecov/c/github/meiwhu/babel-plugin-intresting.svg)
+[![Codecov][codecov-icon]][codecov-link]
 
 # babel-plugin-intresting
 Intresting😄
@@ -11,3 +11,5 @@ Intresting😄
 
 [travis-icon]:https://travis-ci.org/meiwhu/babel-plugin-intresting.svg?branch=master
 [travis-link]:https://travis-ci.org/meiwhu/babel-plugin-intresting
+[codecov-icon]:https://img.shields.io/codecov/c/github/meiwhu/babel-plugin-intresting.svg
+[codecov-link]:https://codecov.io/gh/meiwhu/babel-plugin-intresting
